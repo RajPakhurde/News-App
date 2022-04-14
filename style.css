@@ -1,0 +1,78 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .newsicon{
+     display: flex;
+     justify-content: center;
+      margin-top: 20px;
+ }
+ .searchBar{
+     display: flex;
+     justify-content: center;
+     margin: 3rem; 
+ }
+ #searcingNews {
+    padding: 10px  ;
+    width: 30vw;
+    background-color: rgb(89, 81, 245);
+    border-style: none;
+    border-radius: 50px;
+    height: 25px;
+    color: white;
+  }
+  ::placeholder{
+      text-align: left;
+      color: white;
+  }
+  #searchIcon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 12px;
+      margin: 5px;
+      background-color: rgb(88, 80, 235);
+      border-radius: 100%;
+      color: white;
+}
+#searchIcon:hover{
+    background-color: rgb(106, 99, 236);
+    cursor: pointer;
+}
+.mainContent{
+    display: flex;
+    justify-content: center;
+    background-color: #cfd6ff;
+    width: 71vw;
+    padding: 16px;
+     margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative;
+    left: 13%;
+}
+.Artical-Information{
+    padding: 10px;
+}
+.ab{
+    padding: 8px 0px;
+}
+#a{
+    text-decoration: none;
+    background-color: rgb(88, 80, 235);
+    color: white;
+    padding: 7px 11px;
+    border-radius: 5px;
+     
+} 
+#a:hover{
+    background-color: rgb(106, 99, 236);
+    cursor: pointer;
+}
+.readmore{
+    border-style: none;
+    border-radius: 5px;
+}
+.searchBtn{
+    border-radius: 100%;
+    border-style: none;
+} 
