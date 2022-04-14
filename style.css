@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:wght@200&display=swap');
+
  *{
      margin: 0;
      padding: 0;
@@ -56,6 +59,9 @@
 .ab{
     padding: 8px 0px;
 }
+#description{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 #a{
     text-decoration: none;
     background-color: rgb(88, 80, 235);
@@ -76,3 +82,9 @@
     border-radius: 100%;
     border-style: none;
 } 
+
+@media only screen and (max-width: 650px){
+ .mainContent{
+     flex-wrap: wrap;
+ }
+}
