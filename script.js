@@ -16,7 +16,6 @@ function getData() {
       return response.json();
     })
     .then((data) => {
-      console.log(data.articles[0]);
       for (i = 0; i < data.articles.length; i++) {
         let allcontent = document.querySelector(".allcontent");
         allcontent.insertAdjacentHTML(
