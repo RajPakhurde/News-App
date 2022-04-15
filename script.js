@@ -38,5 +38,8 @@ function getData() {
          </div>`
         );
       }
+    })
+    .catch((e) => {
+      console.log(e);
     });
 }
